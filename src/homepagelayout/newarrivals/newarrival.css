@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+    .right-pro-container {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .product-card {
+        flex-direction: row !important;
+        width: 100% !important;
+        background-color: red;
+    }
+}

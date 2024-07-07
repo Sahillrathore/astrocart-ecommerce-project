@@ -1,0 +1,16 @@
+/* @media (max-width: 550px) {
+    .card {
+        width: 13rem;
+    }
+    .card-img img {
+        height: 15rem;
+    }
+}
+@media (max-width: 450px) {
+    .card {
+        width: 10rem;
+    }
+    .card-img img {
+        height: 12rem;
+    }
+} */

@@ -1,0 +1,11 @@
+.imgs div:hover .img-overlay{
+    background-color: rgba(0, 0, 0, 0.725);
+    box-shadow: 10px 0px 15px 20px rgba(0, 0, 0, 0.725);
+    height: 40%;
+    width: 100%;
+    bottom: 0px;
+    transition: all .3s;
+}
+.img-overlay{
+    transition: all .3s;
+}

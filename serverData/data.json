@@ -1,0 +1,193 @@
+{
+    "productsData": [
+        {
+            "title": "Cordury Maroon Jacket Stylish Wear",
+            "description": "lorem ipsum dior sior dolor sets srainea sgraa hash",
+            "image": "../src/assets/ecomm/maroon jacket.jpg",
+            "price": "1400",
+            "category": "mens clothing",
+            "subcategory": "featured",
+            "slug": "maroon-Jacket",
+            "rating": "4.3",
+            "reviews": "125"
+        },
+        {
+            "title": "Earpodes",
+            "description": "lorem ipsum dior sior dolor sets srainea sgraa hash",
+            "image": "../src/assets/ecomm/earpodes.jpg",
+            "price": "999",
+            "category": "electronics",
+            "subcategory": "new",
+            "slug": "earpodes",
+            "rating": "3.8",
+            "reviews": "89"
+        },
+        {
+            "title": "Electro Round Screen Smart Watch with Inbuilt Calling",
+            "description": "Bluetooth calling - Experience hands-free living with the calling functionality on your wrist. With pure electro you can now access call logs and your dial pad with 1.85' display bolder viewing experience indoor and outdoors. Electro prime app to keep a check on your health metrics. Select new watch faces and track your workout and a lot more.",
+            "image": "../src/assets/ecomm/smart watch.jpg",
+            "price": "1600",
+            "category": "electronics",
+            "subcategory": "",
+            "slug": "smart-watch-white",
+            "rating": "3.5",
+            "reviews": "84"
+        },
+        {
+            "title": "Fashion Dress for Women Midi | Leriya Dress for Women",
+            "description": "Soft rayon blend this one-piece dress for women is made of a soft rayon blend material, featuring with floral printed beach dress for women. Style & length this birthday dress for women western has midi length, front open collar option with button in front of dress characterize this outfit. Size recommendation: please use the infographic size chart guidance to determine your perfect size; a size large is recommended for a comfortable fit..",
+            "image": "../src/assets/ecomm/women dress.jpg",
+            "price": "550",
+            "category": "womens clothing",
+            "subcategory": "",
+            "slug": "womens-dress1",
+            "rating": "3.7",
+            "reviews": "103"
+        }, 
+        {
+            "title": "Headphones",
+            "description": "",
+            "image": "../src/assets/ecomm/headphones.jpg",
+            "price": "850",
+            "category": "electronics",
+            "subcategory": "",
+            "slug": "headphones-wireless",
+            "rating": "3.7",
+            "reviews": "120"
+        },
+        {
+            "title": "iphone 15 pro max 5g",
+            "description": "The first iPhone to feature an aerospace‐grade titanium design making these our lightest Pro models ever. Featuring the A17 Pro chip. A monster win for gaming. Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. With the iPhone 15 Pro camera, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.",
+            "image": "../src/assets/ecomm/iPhone_15_Pro_Max.jpg",
+            "price": "159999",
+            "category": "electronics",
+            "subcategory": "new",
+            "slug": "iphone-15-pro", 
+            "rating": "4.7",
+            "reviews": "415"
+        },
+        {
+            "title": "Macbook M2 Chip 2024 4K Screen Resolution",
+            "description": "Macbook M2 Chip 2024 4K Screen ResolutionMacbook M2 Chip 2024 4K Screen ResolutionMacbook M2 Chip 2024 4K Screen Resolution",
+            "image": "../src/assets/ecomm/macbook.jpg",
+            "price": "124000",
+            "category": "electronics",
+            "subcategory": "popular",
+            "slug": "macbook",
+            "rating": "4.7",
+            "reviews": "415"
+        },
+        {
+            "title": "Mens Floral Cotton Shirt Half Sleeves",
+            "description": "Elevate your casual wardrobe with this charming cotton floral printed shirt for men. Crafted from premium quality cotton fabric, it offers both comfort and style. The vibrant floral print adds a touch of freshness and personality to your ensemble, making it perfect for both daytime outings and evening gatherings. This shirt features a classic button-down collar and short sleeves, providing a relaxed yet polished look. Pair it with your favorite jeans or chinos for a laid-back yet stylish outfit that exudes confidence and flair",
+            "image": "../src/assets/ecomm/floralhalf.jpg",
+            "price": "650",
+            "category": "mens clothing",
+            "subcategory": "featured",
+            "slug": "floral-shirt",
+            "rating": "4.3",
+            "reviews": "210"
+        },
+        {
+            "title": "Oversized T-Shirt Downshoulders",
+            "description": "",
+            "image": "../src/assets/ecomm/oversized t.jpg",
+            "price": "300",
+            "category": "mens clothing",
+            "subcategory": "featured",
+            "slug": "oversized-tshirt-brown",
+            "rating": "4.3",
+            "reviews": "180"
+        },
+        {
+            "title": "Oversized T-shirt for Men Lakers",
+            "description": "",
+            "image": "../src/assets/ecomm/yellow t over.jpg",
+            "price": "400",
+            "category": "mens clothing",
+            "subcategory": "featured",
+            "slug": "yellow-tshirt-lakers",
+            "rating": "4",
+            "reviews": "140"
+        },
+        {
+            "title": "Smart Watch",
+            "description": "",
+            "image": "../src/assets/ecomm/smart watch1.jpg",
+            "price": "1250",
+            "category": "electronics",
+            "subcategory": "new",
+            "slug": "smart-watch-sq",
+            "rating": "3.9",
+            "reviews": "176"
+        },
+        {
+            "title": "Suede Leather tan jacket",
+            "description": "",
+            "image": "../src/assets/ecomm/men jacket brown.jpg",
+            "price": "2100",
+            "category": "mens clothing",
+            "subcategory": "",
+            "slug": "brown-tan-jacket",
+            "rating": "4.3",
+            "reviews": "232"
+        },
+        {
+            "title": "Victus Gaming Laptop 16gb RAM With SSD",
+            "description": "",
+            "image": "../src/assets/ecomm/laptop.jpg",
+            "price": "66,000",
+            "category": "electronics",
+            "subcategory": "",
+            "slug": "gaming-laptop",
+            "rating": "4",
+            "reviews": "114"
+        },
+        {
+            "title": "White Denim Jacket Baggy Full Length",
+            "description": "White Denim Jacket Baggy Full LengthWhite Denim Jacket Baggy Full LengthWhite Denim Jacket Baggy Full Length",
+            "image": "../src/assets/ecomm/denim white.jpg",
+            "price": "1100",
+            "category": "mens clothing",
+            "subcategory": "popular",
+            "slug": "denim-jacket",
+            "rating": "4.4",
+            "reviews": "232"
+        },
+        {
+            "title": "Womens Printed Kurti Comfort fit",
+            "description": "Indulge in feminine charm with this captivating women's top adorned with a delightful print. Crafted from soft and breathable fabric, this top ensures all-day comfort while maintaining a stylish edge. The intricate print adds a playful flair, featuring a combination of vibrant colors and intricate patterns that effortlessly catch the eye. With its versatile design, this top transitions seamlessly from casual daytime outings to evening events with ease.",
+            "image": "../src/assets/ecomm/women top.jpg",
+            "price": "350",
+            "category": "womens clothing",
+            "subcategory": "popular",
+            "slug": "womens-kurti",
+            "rating": "3.5",
+            "reviews": "56"
+        },
+        {
+            "title": "Women Top",
+            "description": "",
+            "image": "../src/assets/ecomm/women t2.jpg",
+            "price": "500",
+            "category": "womens clothing",
+            "subcategory": "",
+            "slug": "womens-top",
+            "rating": "3.5",
+            "reviews": "56"
+        },
+        {
+            "title": "Women Toppp",
+            "description": "",
+            "image": "../src/assets/ecomm/women top2.jpg",
+            "price": "500",
+            "category": "womens clothing",
+            "subcategory": "",
+            "slug": "womens-top2",
+            "rating": "3.7",
+            "reviews": "81"
+        }
+
+        
+    ]
+}
