@@ -14,7 +14,7 @@ const Footer = () => {
                     <h5 className='text-2xl text-gray-800 font-bold mb-2'>Join us and get updates</h5>
                     <span className='text-gray-600'>Sign up for exclusive offers, latest news and latest updates</span>
                 </div>
-                <div className="newsletter-form flex bg-white rounded-full overflow-hidden border border-black/40 border-r-0">
+                <div className="newsletter-form sm:w-fit xs:w-fit w-full justify-between flex-wrap flex bg-white rounded-full overflow-hidden border border-black/40 border-r-0">
                     <input type="text" id="newsletterInp" placeholder='Your Email' className='outline-none indent-4'/>
                     <button className='bg-red-600 sm:px-8 px-4 py-2 sm:text-sm text-xs text-gray-200 rounded-full border-transparent border hover:border-red-600 hover:text-red-700 hover:bg-transparent transition-colors'>Submit</button>
                 </div>

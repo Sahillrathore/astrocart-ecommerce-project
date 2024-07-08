@@ -27,10 +27,10 @@ const Login = ({ login, setLogin }) => {
     console.log("sail");
 
     const notify = (e) => {
-        loginUsername != "" ?
+        tempName != "" ?
         toast.success('Login Successfull', {
             position: "top-right",
-            autoClose: 1000,
+            autoClose: 800,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: false,
@@ -42,7 +42,7 @@ const Login = ({ login, setLogin }) => {
         :
         toast.error('Login Error', {
             position: "top-right",
-            autoClose: 1000,
+            autoClose: 800,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: false,
