@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import data from '../../../../serverData/data.json'
+// import data from '../../../../serverData/data.json'
 import Contactbox from '../../contactboxes/Contactbox';
 
 import { ToastContainer, toast } from 'react-toastify';

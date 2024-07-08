@@ -10,13 +10,14 @@ import 'swiper/css';
 const HeroSection = () => {
     return (
         <>
-            <section className='md:h-[85vh] sm:h-[58vh] xs:h-[58vh] xxs:h-[52vh] xmin:h-[42vh]'>
+        {/* sm:h-[54vh] xs:h-[48vh] xxs:h-[40vh] xmin:h-[36vh] */}
+            <section className='lg:h-[85vh] h-fit'>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
                     slidesPerView={1}
                     autoplay={{
-                        delay: 6000,
+                        delay: 60080,
                         disableOnInteraction: false,
                     }}
                     pagination={{
@@ -27,11 +28,14 @@ const HeroSection = () => {
                     className="mySwiper h-full"
                 >
                     <SwiperSlide>
-                        <div className="hero flex md:flex-row flex-co w-full h-full bg-gradient-to-t from-blue-500 to-indigo-50 sm:justify-around xs:justify-around xxs:justify-between xmin:justify-between">
-                            <div className="hero-left flex flex-col md:justify-center xxs:pl-4 xmin:pl-2 justify-end gap-2 md:pb-0 pb-8">
+                        <div className="hero flex md:flex-row flex-co w-full h-full bg-gradient-to-t from-blue-500 to-indigo-50 sm:justify-around xs:justify-around xxs:justify-between xmin:justify-between md:px-5">
+                            <div className="hero-left flex flex-col xxs:pl-4 xmin:pl-2 sm:py-0 xs:py-8 xxs:py-8 xmin:py-4 gap-2 justify-center">
 
                                 <p className='sm:text-lg xs:text-lg xxs:text-base text-sm text-red-500 font-semibold sm:mb-4 xs:mb-4 mb-2 '><i className="fa-solid fa-award"></i> Best Quality Assured</p>
-                                <div className="banner-title md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl xmin:text-xl sm:font-bold xs:font-bold xxs:font-semibold ">
+
+                                <div className="banner-title sm:!leading-[4rem] md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl xmin:text-xl sm:font-bold xs:font-bold xxs:font-semibold " 
+                                // style={{lineHeight}}
+                                >
                                     <p className=''>One Stop</p>
                                     <p className=''>Destination For</p>
                                     <p className=''>All your Needs</p>
@@ -46,17 +50,19 @@ const HeroSection = () => {
                             </div>
 
                             <div className="hero-right md:block flex items-end">
-                                <img src={img} alt="" className='md:h-full sm:h-72 xs:h-72 xxs:h-64 xmin:h-52' />
+                                <img src={img} alt="" className='lg:h-full sm:h-[28rem] xs:h-72 xxs:h-60 xmin:h-52' />
                             </div>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <div className="hero flex md:flex-row flex-co w-full h-full bg-gradient-to-t from-yellow-400 to-orange-200 sm:justify-around xs:justify-around xxs:justify-between xmin:justify-between">
-                            <div className="hero-left flex flex-col md:justify-center xxs:pl-4 xmin:pl-2 justify-end gap-2 md:pb-0 pb-8">
+                        <div className="hero flex md:flex-row flex-co w-full h-full bg-gradient-to-t from-yellow-400 to-orange-200 sm:justify-around xs:justify-around xxs:justify-between xmin:justify-between md:px-5">
+                            <div className="hero-left flex flex-col xxs:pl-4 xmin:pl-2 sm:py-0 xs:py-8 xxs:py-8 xmin:py-4 gap-2 justify-center ">
 
                                 <p className='sm:text-lg xs:text-lg xxs:text-base text-sm text-red-500 font-semibold sm:mb-4 xs:mb-4 mb-2 '><i className="fa-solid fa-award"></i> Best Quality Assured</p>
-                                <div className="banner-title md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl xmin:text-xl sm:font-bold xs:font-bold xxs:font-semibold ">
+                                <div className="banner-title sm:!leading-[4rem] md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl xmin:text-xl sm:font-bold xs:font-bold xxs:font-semibold " 
+                                // style={{lineHeight}}
+                                >
                                     <p className=''>One Stop</p>
                                     <p className=''>Destination For</p>
                                     <p className=''>All your Needs</p>
@@ -71,17 +77,19 @@ const HeroSection = () => {
                             </div>
 
                             <div className="hero-right md:block flex items-end">
-                                <img src={img} alt="" className='md:h-full sm:h-72 xs:h-72 xxs:h-64 xmin:h-52' />
+                                <img src={img} alt="" className='lg:h-full sm:h-[28rem] xs:h-72 xxs:h-60 xmin:h-52' />
                             </div>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <div className="hero flex md:flex-row flex-co w-full h-full bg-gradient-to-t from-pink-400 to-pink-100 sm:justify-around xs:justify-around xxs:justify-between xmin:justify-between">
-                            <div className="hero-left flex flex-col md:justify-center xxs:pl-4 xmin:pl-2 justify-end gap-2 md:pb-0 pb-8">
+                        <div className="hero flex md:flex-row flex-co w-full h-full bg-gradient-to-t from-pink-400 to-pink-100 sm:justify-around xs:justify-around xxs:justify-between xmin:justify-between md:px-5">
+                            <div className="hero-left flex flex-col xxs:pl-4 xmin:pl-2 sm:py-0 xs:py-8 xxs:py-8 xmin:py-4 gap-2 justify-center ">
 
                                 <p className='sm:text-lg xs:text-lg xxs:text-base text-sm text-red-500 font-semibold sm:mb-4 xs:mb-4 mb-2 '><i className="fa-solid fa-award"></i> Best Quality Assured</p>
-                                <div className="banner-title md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl xmin:text-xl sm:font-bold xs:font-bold xxs:font-semibold ">
+                                <div className="banner-title sm:!leading-[4rem] md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl xmin:text-xl sm:font-bold xs:font-bold xxs:font-semibold " 
+                                // style={{lineHeight}}
+                                >
                                     <p className=''>One Stop</p>
                                     <p className=''>Destination For</p>
                                     <p className=''>All your Needs</p>
@@ -96,7 +104,7 @@ const HeroSection = () => {
                             </div>
 
                             <div className="hero-right md:block flex items-end">
-                                <img src={img} alt="" className='md:h-full sm:h-72 xs:h-72 xxs:h-64 xmin:h-52' />
+                                <img src={img} alt="" className='lg:h-full sm:h-[28rem] xs:h-72 xxs:h-60 xmin:h-52' />
                             </div>
                         </div>
                     </SwiperSlide>

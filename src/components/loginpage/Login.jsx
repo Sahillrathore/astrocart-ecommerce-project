@@ -63,8 +63,7 @@ const Login = ({ login, setLogin }) => {
                     </h2>
                     <button
                     className='rounded-full bg- text-white font-bold text-lg px-3 py-1 absolute top-0 right-5 '
-                    // onClick={()=>{setLogin(!login)}}
-                    onClick={notify}
+                    onClick={()=>{setLogin(!login)}}
                     >
                         X
                     </button>

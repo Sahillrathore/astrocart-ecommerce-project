@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import fetchDataFromApi from '../../utils/api';
 import PulseLoader from "react-spinners/PulseLoader";
-import data from '../../../serverData/data.json';
+import data from '../../../public/serverData/data.json';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../utils/store/slices/cartslice';
 

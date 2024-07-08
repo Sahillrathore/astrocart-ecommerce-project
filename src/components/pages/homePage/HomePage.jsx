@@ -8,7 +8,7 @@ import PopularProducts from '../../../homepagelayout/popularproductssection/Popu
 import NewArrivals from '../../../homepagelayout/newarrivals/NewArrivals';
 import Footer from '../../footer/Footer';
 import fetchDataFromApi from '../../../utils/api';
-import data from '../../../../serverData/data.json'
+import data from '../../../../public/serverData/data.json'
 
 const HomePage = () => {
   const [loading, setLoading] = useState(false);

@@ -46,15 +46,15 @@ const CategoriesSection = () => {
                                 slidesPerView: 3
                             },
                             300: {
-                                spaceBetween: 0,
+                                spaceBetween: 20,
                                 slidesPerView: 3
                             },
                             480: {
-                                spaceBetween: 0,
+                                spaceBetween: 40,
                                 slidesPerView: 3
                             },
                             680: {
-                                spaceBetween: 10,
+                                spaceBetween: 50,
                                 slidesPerView: 3
                             },
                             900: {
