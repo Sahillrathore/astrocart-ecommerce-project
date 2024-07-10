@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
-// import data from '../../../../serverData/data.json'
+import React, { useEffect, useState } from 'react'
+import PulseLoader from "react-spinners/PulseLoader";
+
 import Contactbox from '../../contactboxes/Contactbox';
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -7,7 +8,9 @@ import 'react-toastify/dist/ReactToastify.css';
   
 
 const Contact = () => {
-
+    
+    const [loading, setLoading] = useState(false);
+    
     const notify = (e) => {
         toast.success('🦄 Message Sent!', {
             position: "top-right",
@@ -22,9 +25,14 @@ const Contact = () => {
             });
     };
 
-    useEffect(()=>{
-        window.scroll(0,0);
-    },[])
+    useEffect(() => {
+        window.scroll(0, 0);
+
+        setLoading(true);
+        setTimeout(() => {
+            setLoading(false);
+        }, 1000);
+    }, [])
 
     const formHandler = (e) => {
         e.preventDefault();
@@ -33,6 +41,13 @@ const Contact = () => {
 
     return (
         <>
+
+            <div
+            className={`loader w-screen flex h-[90vh] items-center justify-center ${loading ? "block" : "hidden"}`}
+            >
+                <PulseLoader color="#d63636" />
+            </div>
+
             <ToastContainer 
             draggable
             />

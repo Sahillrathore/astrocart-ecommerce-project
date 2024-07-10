@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import PulseLoader from "react-spinners/PulseLoader";
+
 import catImg from '../../../assets/women-cat-banner.png'
 import catImg2 from '../../../assets/mens-cat-banner.png'
 import catImg3 from '../../../assets/electronic-cat.png'
@@ -12,13 +14,27 @@ import './diffcategory.css'
 const DiffCategoryPage = () => {
 
     const { category, setCategory, productsData } = useProducts();
+    const [loading, setLoading] = useState(false);
     // const {productCategory, setproductCategory} = useProducts([]);
 
     useEffect(() => {
         window.scroll(0, 0);
-        // console.log(category);
+
+        setLoading(true);
+        setTimeout(() => {
+            setLoading(false);
+        }, 1000);
     }, [])
     return (
+
+        <>
+
+        <div
+        className={`loader w-screen flex h-[90vh] items-center justify-center ${loading ? "block" : "hidden"}`}
+        >
+            <PulseLoader color="#d63636" />
+        </div>
+
         <div className='py-6 sm:px-8 px-2 bg-white'>
             <div className='flex md:flex-row flex-col  xs:items-start items-center  lg:gap-6 gap-4 pb-6'>
                 <div className='flex md:flex-col flex-row w-fit sm:gap-3 bg-gray-50 h-fit'>
@@ -77,6 +93,7 @@ const DiffCategoryPage = () => {
             </div>
         </div>
 
+        </>
     )
 }
 export default DiffCategoryPage

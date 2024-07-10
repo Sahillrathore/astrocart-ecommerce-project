@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     setProductsData(data.productsData)
-    console.log(login);
+    // console.log(login);
   }, [login])
 
   return (

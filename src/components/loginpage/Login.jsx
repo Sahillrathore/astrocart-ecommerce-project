@@ -24,7 +24,6 @@ const Login = ({ login, setLogin }) => {
         const val = e.target.value;
         setTempName(val);
     }
-    console.log("sail");
 
     const notify = (e) => {
         tempName != "" ?
@@ -65,7 +64,7 @@ const Login = ({ login, setLogin }) => {
                     className='rounded-full bg- text-white font-bold text-lg px-3 py-1 absolute top-0 right-5 '
                     onClick={()=>{setLogin(!login)}}
                     >
-                        X
+                        <i className="fa-solid fa-xmark"></i>
                     </button>
 
                     <form className="mx-auto max-w-2xl rounded-lg border">
@@ -114,7 +113,7 @@ const Login = ({ login, setLogin }) => {
                                 </span>
                             </div>
                             <button className="flex items-center justify-center gap-2 rounded-lg bg-blue-500 sm:px-8 xs:px-8 xxs:px-8 px-4 py-3 text-center text-sm font-semibold text-white outline-none ring-blue-300 transition duration-100 hover:bg-blue-600 focus-visible:ring active:bg-blue-700 md:text-base"
-                            onClick={loginBtnHandler}
+                            onClick={(e)=>{e.preventDefault()}}
                             >
                                 <svg
                                     className="h-5 w-5 shrink-0"
@@ -132,7 +131,7 @@ const Login = ({ login, setLogin }) => {
                                 Continue with Facebook
                             </button>
                             <button className="flex items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white sm:px-8 xs:px-8 xxs:px-8 px-4 py-3 text-center text-sm font-semibold text-gray-700 outline-none ring-gray-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base"
-                            onClick={loginBtnHandler}
+                            onClick={(e)=>{e.preventDefault()}}
                             >
                                 <svg
                                     className="h-5 w-5 shrink-0"

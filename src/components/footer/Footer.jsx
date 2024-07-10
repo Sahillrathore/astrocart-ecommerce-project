@@ -14,9 +14,9 @@ const Footer = () => {
                     <h5 className='text-2xl text-gray-800 font-bold mb-2'>Join us and get updates</h5>
                     <span className='text-gray-600'>Sign up for exclusive offers, latest news and latest updates</span>
                 </div>
-                <div className="newsletter-form sm:w-fit xs:w-fit w-full justify-between flex-wrap flex bg-white rounded-full overflow-hidden border border-black/40 border-r-0">
-                    <input type="text" id="newsletterInp" placeholder='Your Email' className='outline-none indent-4'/>
-                    <button className='bg-red-600 sm:px-8 px-4 py-2 sm:text-sm text-xs text-gray-200 rounded-full border-transparent border hover:border-red-600 hover:text-red-700 hover:bg-transparent transition-colors'>Submit</button>
+                <div className="newsletter-form sm:w-fit xs:w-fit xxs:w-fit justify- flex-wrap flex bg-white rounded-full overflow-hidden border border-black/40 border-r-0">
+                    <input type="text" id="newsletterInp" placeholder='Your Email' className='outline-none indent-4 w-'/>
+                    <button className='bg-red-600 sm:px-8 xs:px-4 px-2 py-2 sm:text-sm text-xs text-gray-200 rounded-full border-transparent border hover:border-red-600 hover:text-red-700 hover:bg-transparent transition-colors'>Submit</button>
                 </div>
             </div>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="foot-socials">
                     <NavLink className='text-3xl font-black text-red-500'
                     to='/'
-                    >ShopE</NavLink>
+                    >AstroCart</NavLink>
 
                     <div className="social-icons text-gray-300 text-2xl flex flex-wrap gap-2 max-w-52 mt-4">
                         <i className="fa-brands fa-instagram bg-pink-600 px-6 py-2 rounded-lg hover:rotate-6 transition-transform"></i>
@@ -79,7 +79,7 @@ const Footer = () => {
                         </li>
                         <li className='hover:text-gray-900 cursor-pointer'>
                             <i className="fa-regular fa-envelope"></i> &nbsp;
-                            trendy@cart.com
+                            atro@cart.com
                         </li>
                         <li className='hover:text-gray-900 cursor-pointer'>
                             <i className="fa-solid fa-location-dot"></i> &nbsp;

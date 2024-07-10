@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import useProducts from '../../utils/productContext'
+import iphoneImg from '../../assets/0x0-removebg-preview.png'
 import './newarrival.css'
 
 const NewArrivals = ({products}) => {
@@ -29,7 +30,7 @@ const NewArrivals = ({products}) => {
                             <h4 className='capitalize text-2xl font-semibold text-gray-800 mb-5'>IPhone 15 pro max 5G</h4>
                             <NavLink to={`/product/iphone-15-pro`} className='bg-blue-600 rounded-md text-sm px-6 py-2 transition-colors text-white hover:bg-transparent border-transparent hover:border-blue-600 border hover:text-blue-600'>Shop Now</NavLink>
                         </div>
-                        <img src="src\assets\0x0-removebg-preview.png" alt="" className='' />
+                        <img src={iphoneImg} alt="" className='' />
                     </div>
                 </div>
 

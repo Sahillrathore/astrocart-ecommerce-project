@@ -20,7 +20,7 @@ const Singleproductview = () => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 500);
+        }, 1000);
         window.scroll(0,0);
 
         setSingleData();
@@ -37,14 +37,11 @@ const Singleproductview = () => {
     }
     return (
         <>
-        {
-            loading ? 
-            <div className="loader w-screen flex h-screen items-center justify-center">
-                <PulseLoader color="#d63636" />
-            </div>
-            :
-            ''
-        }
+        
+        <div className={`loader w-screen flex h-[90vh] items-center justify-center ${loading ? "block" : "hidden"}`}>
+            <PulseLoader color="#d63636" />
+        </div>
+            
         <section className="text-gray-600 body-font overflow-hidden">
         
             

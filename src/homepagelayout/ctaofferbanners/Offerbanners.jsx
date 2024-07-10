@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Offerbanners = () => {
   return (
@@ -12,7 +13,9 @@ const Offerbanners = () => {
                     <p className='lg:text-5xl sm:text-4xl text-2xl sm:w-2/3 font-medium leading-'>up to 35% off </p>
                     <p className='text-lg'>on selected brands</p>
 
-                    <button className='bg-white text-black w-24 border border-transparent hover:border-white hover:bg-transparent hover:text-white transition-colors rounded-3xl py-2'>Shop</button>
+                    <NavLink
+                    to="browse-categories"
+                    className='bg-white text-black w-24 border border-transparent hover:border-white hover:bg-transparent hover:text-white transition-colors rounded-3xl py-2 text-center'>Shop</NavLink>
                 </div>
             </div>
             <div className="image2 imgg relative sm:block hidden">
@@ -23,7 +26,9 @@ const Offerbanners = () => {
                     <p className='lg:text-5xl text-4xl w-2/3 font-medium leading-'>up to 35% off </p>
                     <p className='text-lg'>on selected brands</p>
 
-                    <button className='bg-white text-black w-24 border border-transparent hover:border-white hover:bg-transparent hover:text-white transition-colors rounded-3xl py-2'>Shop</button>
+                    <NavLink
+                    to="browse-categories"
+                    className='bg-white text-black w-24 border border-transparent hover:border-white hover:bg-transparent hover:text-white transition-colors rounded-3xl py-2 text-center'>Shop</NavLink>
                 </div>
             </div>
         </div>
