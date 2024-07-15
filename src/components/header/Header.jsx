@@ -20,7 +20,7 @@ const Header = ({ login, setLogin }) => {
     // setNavToggle(!navToggle);
   }
   return (
-    <nav className='sticky top-0 backdrop-blur-sm bg-white/80 z-30'>
+    <nav className='sticky top-0 backdrop-blur-sm bg-white/80 z-[100]'>
       <div className="nav-container flex sm:px-8 px-4 py-4 justify-between items-center shadow-sm shadow-black/15">
         <NavLink className="logo md:text-2xl text-xl text-red-500 font-black"
           to='/'
@@ -71,7 +71,7 @@ const Header = ({ login, setLogin }) => {
         </div>
 
         <div className={`nav-actions lg:flex items-center gap-2
-        ${navToggle ? "absolute right-[5.4rem] top-52 p-5 flex z-20" : "hidden"}`}
+        ${navToggle ? "absolute right-[5.4rem] top-52 py-5 px-1 flex z-20" : "hidden"}`}
         >
           <div
             className="cart flex w-10 items-center gap-1 cursor-pointer"
@@ -84,8 +84,8 @@ const Header = ({ login, setLogin }) => {
 
           {
             loginUsername.length >= 2 ?
-              <div className='flex gap-[3px] text-white'>
-                {loginUsername}
+              <div className={`flex gap-[3px] text-xs lg:text-black text-white lg:w-fit w-28 `}>
+                <span className='lg:hidden'>{loginUsername}</span>
                 <img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg" alt="" className="h-6 rounded-full" />
               </div>
               :

@@ -16,6 +16,7 @@ import data from '../public/serverData/data.json'
 import { Navprovider } from './utils/context/navContext'
 import Login from './components/loginpage/Login'
 import { LoginProvider } from './utils/context/loginContext'
+import Checkoutpage from './components/checkoutcomp/Checkoutpage'
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
                 <Route path='browse-categories' element={<DiffCategoryPage />} />
                 <Route path='cart' element={<Cart />} />
                 <Route path='user-login' element={<Login />} />
+                <Route path='checkout-page' element={<Checkoutpage />} />
                 <Route path='*' element={<Pagenotfound />} />
               </Routes>
               <Footer />

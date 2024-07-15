@@ -15,6 +15,7 @@ const HomePage = () => {
   const [products, setProducts] = useState();
 
   useEffect(()=>{
+    window.scroll(0,0);
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
@@ -24,7 +25,7 @@ const HomePage = () => {
 
   }, [])
   
-  window.scroll(0,0);
+  
   const getProductsData = () => {
     
     setProducts(data.productsData);

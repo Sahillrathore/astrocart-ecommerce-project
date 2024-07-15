@@ -20,7 +20,7 @@ const About = () => {
     <>
 
         <div
-        className={`loader w-screen flex h-[90vh] items-center justify-center ${loading ? "block" : "hidden"}`}
+        className={`loader w-screen flex h-screen items-center z-50 bg-gray-100 justify-center ${loading ? "block fixed top-0" : "hidden"}`}
         >
             <PulseLoader color="#d63636" />
         </div>
